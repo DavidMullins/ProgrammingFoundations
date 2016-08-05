@@ -7,7 +7,7 @@ def prompt(message)
 end
 
 def valid_number?(number)
-  number.to_i != 0
+  number.to_i.nonzero?
 end
 
 def operation_to_message(op)
